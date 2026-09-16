@@ -1,93 +1,73 @@
-# Siyoyisile Indlala Community Farm Website
+Siyoyisile Indlala Community Farm Website
 
-## Student Information
+Project Overview
+The current project represents the whole web-based practical realization of Siyoyisile Indlala Community Farm, which operates in Gauteng, South Africa. The project involves bringing the planning aspects from Part 1 to the operational frontend platform.
+Folder Directory Mapping
+`/css` - Holds structural responsive stylesheets (`style.css`).
+`/images` - Houses downloaded local image assets.
+ root (`/`) - Houses the five core pages (`index.html`, `about.html`, `services.html`, `enquiry.html`, `contact.html`).
 
-**Student Name:** Jacquesjunior123  
-**Module:** WEDE5020POE  
-**Project:** Website Project  
-**Year:** 2026
+Implementation Details
+Semantic HTML : Leverages all layout anchor tags (`<header>`, `<nav>`, `<main>`, `<article>`, `<footer>`) to ensure a uniform layout on the web page.
+WCAG 2.2 Compatible : Created using color schemes that adhere to contrast principles. Also includes keyboard skip links, explicit `<label>` associations, and viewport size responsive techniques.
+Fluid Design : Employs absolute layout and element values (`rem`, `em`).
 
-## Project Overview
 
-Siyoyisile Indlala Community Farm is a fictional community-based organisation in Gauteng, South Africa. The organisation focuses on food security, sustainable agriculture and community development.
 
-The website provides information about the organisation, its activities and services. It also allows visitors to learn about farming education, community projects and ways to become involved.
 
-## Website Goals and Objectives
 
-The main goals of the website are to:
 
-- Increase awareness of the organisation.
-- Provide information about community farming activities.
-- Attract volunteers and potential partners.
-- Promote farming education and community programmes.
-- Provide an easy way for visitors to contact the organisation.
-- Provide information about services and activities.
 
-## Key Features and Functionality
 
-The website contains five main pages:
 
-- **Home** – Introduction to the organisation and its activities.
-- **About Us** – Information about the organisation, mission, history and team.
-- **Services/Products** – Information about community farming, farming education and project workshops.
-- **Enquiry** – Allows visitors to submit an enquiry.
-- **Contact** – Provides contact information and a contact form.
+ Changelog
+Part 2 Implementation
+Added
+An external style sheet called "style.css" was created and used standardized CSS reset for cross-browser compatibility.
+Global typography scaling guidelines were designed to ensure consistent `font-family`, `line-height`, and `letter-spacing`.
+Used Flexbox to create layouts on the desktop to align configurations for header navigation and card-based components via CSS Grid.
+A high-end color palette was designed that satisfies WCAG 2.2 requirements for dark text and backgrounds.
+Accessibility considerations included the use of standard labels for inputs and absolute positioning of the keyboard navigation skip-link container.
+Changed
+All measurements for the layout, including margins, paddings, and font sizes, have been converted from pixel-based measurement to flexible relative sizing units (`rem`, `%`).
+Media queries have been expanded to a multi-tier structure which will provide formatting for fluid tablets and make all stacked elements vertically on small mobile phone screens.
+Assets within the media queries have been optimized using percentage width and auto height measurements.
 
-The website also includes:
 
-- HTML5 semantic structure.
-- CSS styling and responsive layout.
-- JavaScript contact form validation.
-- Navigation links between pages.
-- Form fields for visitor enquiries and contact.
-- Comments in the source code.
-- Mobile-friendly design.
 
-## Timeline and Milestones
 
-| Week | Activity |
-|---|---|
-| Week 1 | Research and requirements |
-| Week 2 | Sitemap and wireframe |
-| Week 3 | Visual design |
-| Week 4 | HTML and CSS development |
-| Week 5 | JavaScript, forms and responsive testing |
-| Week 6 | Testing, accessibility and corrections |
 
-## Part 1 Details
 
-The project proposal was developed for Siyoyisile Indlala Community Farm.
 
-The proposal included:
 
-- Organisation overview.
-- Website goals and objectives.
-- Current website analysis.
-- Proposed website features.
-- Design and user experience.
-- Technical requirements.
-- Project timeline.
-- Budget estimate.
-- References.
 
-## Sitemap
+Screenshots
+[Desktop View](images/desktop-view.png)
+[Tablet View](images/tablet-view.png)
+[Phone View](images/phone-view.png)
 
-The website contains the following main structure:
 
-```text
-Home
-│
-├── About Us
-│   ├── History
-│   ├── Mission
-│   └── Team
-│
-├── Services/Products
-│   ├── Farming Training
-│   └── Project Workshops
-│
-├── Enquiry
-│   └── Volunteer/Partnership Enquiry
-│
-└── Contact
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reference List
+The Independent Institute of Education (The IIE). 2026. Web Development (Introduction) WEDE5020 HTML Practical Lab Manual: Building the “Mog Hub” Multi-Page Website in Visual Studio Code (Learning Unit 3). Sandton: The Independent Institute of Education.
+The Independent Institute of Education (The IIE). 2026. WEDE5020 – Practical 2: Styling the Mog Hub Website Using CSS (Learning Unit 4). Sandton: The Independent Institute of Education.
+The Independent Institute of Education (The IIE). 2026. WEDE5020 – Practical 3: Building an Interactive Cat Gallery Using HTML, CSS and JavaScript. Sandton: The Independent Institute of Education.
+The Independent Institute of Education (The IIE). 2026. WEDE5020 — Learning Unit 5: Responsive Web Design — Practical Lab Manual: Campus Café. Sandton: The Independent Institute of Education.
