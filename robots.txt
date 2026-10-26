@@ -5,5 +5,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://Siyoyisile-Indlala-Website.netlify.app/sitemap.xml
+Sitemap:https://courageous-piroshki-7adc3e.netlify.app/sitemap.xml
 
